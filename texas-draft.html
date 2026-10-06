@@ -1,0 +1,491 @@
+<!doctype html><html lang="en"><head>
+<meta name="robots" content="noindex,nofollow,noarchive"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Texas before Carmo: Dallas Fort Worth and Waco now, Houston as its own trip</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#FCFBF7;--card:#fff;--ink:#1C1F24;--mut:#666F7A;--line:#E2DDD2;
+--navy:#123A5E;--grn:#1A6B3C;--red:#A4262C;--amb:#8A6100;--clay:#A8501E;
+--disp:"Sora",Georgia,serif;--body:"Source Sans 3","Helvetica Neue",sans-serif;
+--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.5 var(--body);
+-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.wrap{width:100%;padding:0 clamp(16px,4vw,56px);padding-bottom:96px}
+header{padding:clamp(28px,5vw,56px) 0 0}
+.kicker{font:600 12px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--clay);margin:0 0 14px}
+h1{font-family:var(--disp);font-size:clamp(28px,4.4vw,52px);line-height:1.06;margin:0 0 8px;
+letter-spacing:-.02em;font-weight:700;max-width:22ch}
+.sub{color:var(--mut);margin:0 0 30px;font-size:clamp(15px,1.5vw,18px);max-width:70ch}
+h2{font-family:var(--disp);font-size:clamp(21px,2.6vw,30px);line-height:1.15;margin:clamp(48px,6vw,76px) 0 6px;
+font-weight:600;letter-spacing:-.015em;color:var(--navy)}
+h3{font-family:var(--disp);font-size:clamp(17px,1.8vw,21px);margin:0 0 2px;font-weight:600;letter-spacing:-.01em}
+.h2sub{color:var(--mut);margin:0 0 20px;font-size:15px;max-width:74ch}
+.h2sub.prov{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--clay);
+border-radius:5px;padding:14px 16px;font-size:14px;max-width:none}
+.h2sub.prov b{color:var(--ink);font-weight:600}
+a{color:var(--navy)}
+a:focus-visible,button:focus-visible,select:focus-visible,th button:focus-visible{outline:3px solid var(--clay);outline-offset:2px;border-radius:3px}
+.answer{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--grn);
+border-radius:6px;padding:clamp(22px,3.4vw,40px);margin:0 0 22px}
+.answer .big{font-family:var(--disp);font-size:clamp(27px,5vw,58px);line-height:1.02;font-weight:700;
+color:var(--grn);margin:0 0 12px;letter-spacing:-.028em}
+.answer .lede{font-size:clamp(16px,1.6vw,20px);color:#2F353C;margin:0;max-width:66ch}
+.answer .lede b{color:var(--ink)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(150px,100%),1fr));gap:12px;margin:0 0 22px}
+.tile{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--navy);
+border-radius:5px;padding:16px 18px}
+.tile b{display:block;font-family:var(--disp);font-size:clamp(26px,3.2vw,40px);line-height:1;
+font-weight:700;margin-bottom:6px;font-variant-numeric:tabular-nums}
+.tile span{font-size:13.5px;color:var(--mut);display:block;line-height:1.35}
+.tile.g{border-top-color:var(--grn)}.tile.g b{color:var(--grn)}
+.tile.c{border-top-color:var(--clay)}.tile.c b{color:var(--clay)}
+.tile.n b{color:var(--navy)}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 8px}
+.btn{display:inline-flex;align-items:center;gap:9px;min-height:48px;background:var(--navy);color:#fff;
+text-decoration:none;padding:13px 24px;border-radius:5px;font-weight:600;font-size:15.5px}
+.btn:hover{background:#0D2C48}
+.btn.alt{background:var(--card);color:var(--navy);border:1px solid #C3CDD7}
+.btn.alt:hover{background:#EEF3F8}
+/* signature element: the drive time corridor */
+.corrwrap{background:var(--card);border:1px solid var(--line);border-radius:6px;
+padding:clamp(20px,3vw,34px) clamp(14px,2.4vw,28px);overflow-x:auto;overscroll-behavior-x:contain}
+.corr{display:flex;align-items:flex-start;min-width:860px;position:relative}
+.corr .stop{flex:0 0 132px;text-align:center;position:relative;padding-top:26px}
+.corr .stop .pin{position:absolute;top:6px;left:50%;transform:translateX(-50%);width:14px;height:14px;
+border-radius:50%;background:var(--navy);border:3px solid var(--card);box-shadow:0 0 0 2px var(--navy)}
+.corr .stop.key .pin{background:var(--clay);box-shadow:0 0 0 2px var(--clay)}
+.corr .stop b{display:block;font-family:var(--disp);font-size:16px;font-weight:600}
+.corr .stop span{display:block;font-size:12.5px;color:var(--mut);line-height:1.3;margin-top:3px}
+.corr .stop.key b{color:var(--clay)}
+.corr .leg2{flex:1 1 auto;padding-top:11px;position:relative;min-width:54px}
+.corr .leg2::before{content:"";position:absolute;top:12px;left:0;right:0;height:3px;
+background:repeating-linear-gradient(90deg,var(--clay) 0 9px,transparent 9px 16px);opacity:.55}
+.corr .leg2 span{display:block;text-align:center;font:600 12px/1 var(--mono);color:var(--clay);
+background:var(--card);padding:5px 4px;position:relative;top:14px;letter-spacing:.02em}
+.scroll{background:var(--card);border:1px solid var(--line);border-radius:6px;overflow-x:auto;
+-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+table{width:100%;border-collapse:collapse;font-size:14.8px;min-width:720px}
+th{text-align:left;font:600 11.5px/1.3 var(--mono);letter-spacing:.07em;text-transform:uppercase;
+color:var(--navy);padding:15px 13px 10px;border-bottom:2px solid var(--line);vertical-align:bottom;white-space:nowrap;background:var(--card)}
+th button{all:unset;cursor:pointer;font:inherit;color:inherit;letter-spacing:inherit;text-transform:inherit;
+display:inline-flex;gap:5px;align-items:center;min-height:24px}
+th button::after{content:"\2195";opacity:.35;font-size:12px}
+th[aria-sort="ascending"] button::after{content:"\2191";opacity:1}
+th[aria-sort="descending"] button::after{content:"\2193";opacity:1}
+td{padding:13px;border-bottom:1px solid #EFEAE0;vertical-align:top;color:#333A42;min-width:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.hi td{background:#F0F7F2}
+.mut{color:var(--mut);font-size:13.2px;line-height:1.4}
+.src{font:600 11px/1.5 var(--mono);color:var(--clay);word-break:break-word}
+.pill{display:inline-block;padding:3px 9px;border-radius:3px;font:600 11px/1.5 var(--mono);white-space:nowrap;margin:5px 3px 0 0}
+.pg{background:#E6F2EA;color:var(--grn)}.pn{background:#EAEFF4;color:var(--navy)}
+.pc{background:#F5EDE4;color:var(--clay)}
+.warn{margin-top:6px;font-size:12.6px;line-height:1.4;color:var(--amb);border-left:2px solid var(--amb);padding-left:8px}
+.sc{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:4px;
+font:700 15px/1 var(--mono);color:#fff;background:var(--mut)}
+.sc.s5{background:var(--grn)}.sc.s4{background:#3E7F58}.sc.s3{background:var(--navy)}
+.sc.s2{background:var(--amb)}.sc.s1{background:#98A1AB}.sc.s0{background:#B9AFA0}
+.own{display:inline-block;padding:4px 10px;border-radius:3px;font:600 11.5px/1.5 var(--mono);white-space:nowrap}
+.oJeremy{background:#EAEFF4;color:var(--navy)}.oCassie{background:#F5EDE4;color:var(--clay)}
+.oJodi{background:#E6F2EA;color:var(--grn)}
+.big2{font-family:var(--disp);font-size:26px;font-weight:700;color:var(--grn)}
+.miss{color:var(--red)}
+.cost{font-family:var(--disp);font-size:21px;color:var(--clay)}
+.dt{font:600 12.5px/1.45 var(--mono);color:var(--navy);white-space:nowrap}
+.days{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(420px,100%),1fr));gap:16px;align-items:start}
+@media (min-width:1200px){.days{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.days>.day:last-child:nth-child(odd){grid-column:1/-1}
+.day{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:22px 20px}
+.day .dat{font:600 12px/1 var(--mono);color:var(--clay);letter-spacing:.05em;margin:0 0 10px;text-transform:uppercase}
+.day .drop{font-size:13.6px;color:var(--amb);margin:14px 0 0;padding-top:12px;border-top:1px solid var(--line);line-height:1.45}
+.day .base{font-size:14px;color:var(--mut);margin:0 0 18px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.tl{list-style:none;margin:0;padding:0}
+.tl li{display:grid;grid-template-columns:52px 20px 1fr;gap:9px;padding:0 0 16px;position:relative}
+.tl li::before{content:"";position:absolute;left:60px;top:20px;bottom:0;width:1px;background:var(--line)}
+.tl li:last-child::before{display:none}
+.tl .t{font:600 13px/1.5 var(--mono);color:var(--navy);font-variant-numeric:tabular-nums}
+.tl .dot{width:10px;height:10px;margin:6px auto 0;border-radius:50%;background:var(--navy)}
+.tl li.meal .dot{background:var(--card);border:2px solid var(--grn)}
+.tl li.drivev .dot{border-radius:1px;background:var(--clay);transform:rotate(45deg)}
+.tl li.conf .dot{border-radius:1px;background:var(--amb)}
+.tl li.daybreak{padding-bottom:10px}
+.tl li.daybreak .dot{background:none;border:none}
+.tl li.daybreak .body{font:600 11.5px/1.5 var(--mono);letter-spacing:.07em;text-transform:uppercase;
+color:var(--clay);border-bottom:1px solid var(--line);padding-bottom:8px}
+.tl .body b{font-size:15.2px;font-weight:600;display:block;line-height:1.35}
+.tl .where{font-size:13.6px;color:#4A535E;margin-top:2px}
+.tl .leg{font:600 11.5px/1.5 var(--mono);color:var(--clay);margin-top:5px}
+.tl .body .mut{margin-top:5px}
+.tl li.meal .body b{color:var(--grn)}
+.tl li.drivev{opacity:.78}
+.tl li.drivev .body b{font-weight:600;color:var(--clay)}
+.tl li.conf .body b{color:var(--amb)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px}
+.filters label{font:600 11.5px/1 var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--mut)}
+select{font:15px var(--body);padding:10px 12px;min-height:44px;border:1px solid #C3CDD7;border-radius:5px;
+background:var(--card);color:var(--ink)}
+#count{font:600 13px/1 var(--mono);color:var(--mut)}
+.need{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(290px,100%),1fr));gap:14px}
+@media(min-width:1200px){.need{grid-template-columns:repeat(5,1fr)}}
+.daysum{margin-top:7px;font:500 12px/1.7 var(--mono);color:var(--mut)}
+.daysum b{color:var(--ink);font-weight:700}
+.dnote{margin-top:6px;font-size:12.5px;line-height:1.45;max-width:34em}
+#rank th:nth-child(7),#rank td:nth-child(7){min-width:230px}
+#rank th:nth-child(-n+2),#rank td:nth-child(-n+2){position:sticky;background:var(--card);z-index:2}
+#rank th:nth-child(1),#rank td:nth-child(1){left:0}
+#rank th:nth-child(2),#rank td:nth-child(2){left:46px}
+@media(max-width:900px){#rank th:nth-child(-n+2),#rank td:nth-child(-n+2){position:static}}
+.chips{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin:0 0 14px}
+.chips span{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;color:var(--mut)}
+/* A shadow at the cut edge, drawn only while the box actually has something to scroll to. */
+.scroll,.corrwrap{background-image:linear-gradient(to right,var(--card),var(--card)),linear-gradient(to left,var(--card),var(--card)),linear-gradient(to right,rgba(31,41,55,.17),rgba(31,41,55,0)),linear-gradient(to left,rgba(31,41,55,.17),rgba(31,41,55,0));background-position:left center,right center,left center,right center;background-repeat:no-repeat;background-size:26px 100%,26px 100%,15px 100%,15px 100%;background-attachment:local,local,scroll,scroll}
+.need li{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--amb);
+border-radius:6px;padding:18px 20px;display:flex;gap:13px;align-items:flex-start}
+.need b{display:block;font-family:var(--disp);font-size:16px;font-weight:600;margin-bottom:5px}
+.need p{margin:0;font-size:14.2px;color:#4A535E;line-height:1.45}
+footer{margin-top:64px;padding-top:22px;border-top:1px solid var(--line);color:var(--mut);font-size:13.5px}
+@media (max-width:640px){
+ .tl li{grid-template-columns:46px 18px 1fr;gap:7px}
+ .tl li::before{left:54px}
+ .btn{width:100%;justify-content:center}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style><style>
+h2{margin:clamp(34px,4.5vw,56px) 0 8px}
+.blk{margin:0}
+.jump{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 6px}
+.jump a{font-size:13.5px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);text-decoration:none;color:var(--navy);font-weight:600}
+.jump a:hover{background:#EEF3F8}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(165px,100%),1fr));gap:12px;margin:0 0 18px}
+.card{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:5px;padding:14px 16px}
+.card .k{font-family:var(--disp);font-size:clamp(20px,2.6vw,32px);font-weight:700;line-height:1.06;color:var(--navy);letter-spacing:-.01em}
+.card .v{font-size:13.5px;color:var(--mut);margin-top:6px;line-height:1.35}
+.pts{padding-left:1.15em;margin:0 0 14px}
+.pts li{margin:0 0 9px;max-width:82ch}
+.pts li b{color:var(--ink)}
+.src{color:var(--mut);font-size:12.5px;font-family:var(--mono)}
+.say,.ask,.flag{padding:12px 16px 12px 18px;margin:0 0 10px;border-radius:0 5px 5px 0;max-width:84ch;font-size:16.5px;line-height:1.45}
+.say{background:#EEF6F0;border-left:5px solid var(--grn)}
+.ask{background:#EEF3F8;border-left:5px solid var(--navy)}
+.flag{background:#FFF6E5;border-left:5px solid var(--amb)}
+.say::before,.ask::before,.flag::before{font:600 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;display:block;margin-bottom:5px}
+.say::before{content:"The call";color:var(--grn)}
+.ask::before{content:"Also";color:var(--navy)}
+.flag::before{content:"Careful";color:var(--amb)}
+.tbl{width:100%;border-collapse:collapse;font-size:14.5px;margin:0 0 16px;background:var(--card)}
+.tbl th{text-align:left;font:600 12px/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--mut);padding:10px 10px;border-bottom:2px solid var(--line);vertical-align:bottom}
+.tbl td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.4}
+.tbl tr:last-child td{border-bottom:0}
+.tbl td.num,.tbl th.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--mono);font-size:13.5px;white-space:nowrap}
+.scroll{overflow-x:auto;overscroll-behavior-x:contain;border:1px solid var(--line);border-radius:6px;margin:0 0 18px;background:var(--card)}
+.scroll .tbl{min-width:920px;margin:0}
+.lab{font:600 10.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:3px 6px;border-radius:3px;margin-left:6px;vertical-align:middle;white-space:nowrap}
+.lab.f{background:#E3F1E8;color:var(--grn)}
+.lab.i{background:#FDEFD9;color:var(--amb)}
+.lab.j{background:#E7EEF7;color:var(--navy)}
+h3{font-family:var(--disp);font-size:clamp(17px,1.9vw,21px);font-weight:700;color:var(--navy);margin:26px 0 8px;letter-spacing:-.01em}
+#plan-new{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--grn);border-radius:0 6px 6px 0;padding:4px 20px 6px;margin:0 0 10px}
+#plan-new h2{margin:18px 0 8px;font-size:clamp(19px,2.2vw,24px)}
+.draft{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:5px;padding:14px 18px 6px;margin:0 0 14px;max-width:84ch}
+.draft .subj{font:600 14px/1.4 var(--mono);color:var(--navy);margin:0 0 10px;padding-bottom:9px;border-bottom:1px solid var(--line)}
+.draft p{margin:0 0 9px;font-size:15.5px;line-height:1.5}
+.draft .meta{margin:0 0 10px}
+.draft .meta:last-child{border-top:1px solid var(--line);padding-top:9px;margin:12px 0 10px}
+.five{counter-reset:n;list-style:none;padding:0;margin:0 0 6px}
+.five li{counter-increment:n;position:relative;padding:12px 16px 12px 58px;background:var(--card);border:1px solid var(--line);border-radius:5px;margin:0 0 8px;font-size:clamp(16px,1.5vw,18.5px);line-height:1.4;max-width:none}
+.five li::before{content:counter(n);position:absolute;left:14px;top:9px;font-family:var(--disp);font-size:26px;font-weight:700;color:var(--grn)}
+.meta{color:var(--mut);font-size:14px;margin:0 0 18px}
+footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);color:var(--mut);font-size:13.5px}
+footer ul{padding-left:1.1em;margin:6px 0 0}
+footer li{margin:0 0 4px}
+.tbl td,.pts li,.say,.ask,.flag,.card .v{overflow-wrap:anywhere}
+.stack .tbl,.scroll .tbl{min-width:0 !important}
+@media (max-width:640px){
+ .stack .tbl,.stack .tbl thead,.stack .tbl tbody,.stack .tbl tr,.stack .tbl td,.stack .tbl th{display:block;width:100%}
+ .stack .tbl thead{display:none}
+ .stack .tbl tr{border-bottom:2px solid var(--line);padding:6px 0}
+ .stack .tbl td{border-bottom:0;padding:4px 8px}
+ .stack .tbl td:first-child{font-weight:600;color:var(--navy)}
+ .stack .tbl td.num{text-align:left}
+ .stack .tbl td[data-label]::before{content:attr(data-label) ": ";font-weight:600;color:var(--navy)}
+}
+@media print{.scroll{overflow:visible;border:0}.scroll .tbl{min-width:0}.jump,.btns{display:none}body{font-size:13px}}
+</style></head><body><div class="wrap">
+<header>
+<p class="kicker">Red Tree Venture Capital · Texas before Carmo · v2.0, 6 Oct 2026</p>
+<h1>Texas before Carmo: Dallas Fort Worth and Waco now, Houston as its own trip</h1>
+<p class="sub">Mon 19 Oct fly in · Tue 20 Oct Dallas Fort Worth, dinner in Waco · Wed 21 Oct Austin · Thu 22 Oct Carmo, Four Seasons Austin. Read top to bottom. What changed, the sequencing call, the two days hour by hour, then the Houston outreach and the November trip it builds.</p>
+<div class="jump"><a href="#plan-new">What changed</a><a href="#plan-decision">The call</a><a href="#plan-waco">Waco and Baylor</a><a href="#plan-tuesday">Tuesday, hour by hour</a><a href="#plan-wednesday">Wednesday in Austin</a><a href="#plan-houston">Houston: now or hold</a><a href="#plan-outreach">The three notes</a><a href="#plan-return">The November trip</a><a href="#plan-friday">A Houston Friday?</a><a href="#plan-flights">Flights and rooms</a><a href="#plan-dropped">What drops</a><a href="#plan-method">Assumptions</a><a href="#plan-sources">Sources and downloads</a></div>
+</header>
+<div class="answer"><div class="big">Run the full Dallas Fort Worth Tuesday, drive I-35 down to Waco for your dinner, sleep there, and leave at 06:30 for a 09:00 start in Austin. Waco sits on the road, so the dinner costs no extra driving and one Austin slot.</div><p class="lede">Eight Tuesday meetings reaching nine institutions, then your table in Waco at 19:30. Seven Austin meetings on the Wednesday, ending at Carmo's mixer. Houston becomes a two-day trip in the week of 16 November, and six Houston notes go out today with no date in them.</p></div>
+<div class="tiles"><div class="tile "><b>Waco</b><span>Tuesday night, 0 extra miles</span></div><div class="tile "><b>8 + 7</b><span>Meetings Tuesday, then Wednesday</span></div><div class="tile "><b>6</b><span>Houston notes to send today</span></div><div class="tile "><b>16 Nov</b><span>Week to propose for Houston</span></div><div class="tile "><b>13 Oct</b><span>Cut-off for a Friday Houston add-on</span></div></div>
+<section class="blk" id="five"><h2>Do this now</h2><ol class="five"><li><b>Book the table for 19:30 and give the restaurant that time when you call.</b> Your last Dallas meeting ends at 17:15 and the drive puts you in Waco about 19:10. If the restaurant can only seat you earlier, drop the 16:30 Dallas Police and Fire meeting and leave Dallas at 16:25 instead, which opens any seating from 18:30.</li><li><b>Change the rooms to Fort Worth Monday, Waco Tuesday and Austin Wednesday.</b> Release the Austin night of 20 October that the earlier plan told you to hold, and book the Austin night of 21 October today. Formula 1 runs at Circuit of The Americas from 22 October and the city fills behind the race.</li><li><b>Send Fund II materials to Renee Hanna before the dinner.</b> She owns private investments on Baylor's own team page, so the private investments conversation can start at the table. Ask at dinner whether to copy Kailey Ransom, the analyst on that desk.</li><li><b>Send the six Houston notes today, with no date in any of them.</b> Rice Management and the University of Houston System go through the people you already know, as a request for an introduction. The other four ask whether a Fund II introduction would be of interest, and nothing else.</li><li><b>Hold Tuesday 13 October as the Friday decision point.</b> If Rice Management or the University of Houston System has confirmed by then, add a Houston Friday and fly home from Houston. If neither has, fly home Thursday evening from Austin and keep Houston whole for November.</li></ol></section>
+<section class="blk" id="plan-new">
+<h2>🆕 Changed since the 13:26 version</h2>
+<ul class="pts">
+<li><b>Your Waco dinner settles the city.</b> Dinner with David Morehead, Renee Hanna and Jin Dingmore, restaurant already chosen <span class="lab j">Jodi, 14:22</span>. Tuesday is Dallas Fort Worth, and the day now ends in Waco instead of Austin. Houston comes out of this trip entirely.</li>
+<li><b>Houston becomes its own trip, with the outreach starting today.</b> Six Houston names get a note now that tests interest and names no date. Six wait until you have a week. The return trip is two days in the week of Monday 16 November.</li>
+<li><b>The Wednesday lost one slot and gained a better lunch.</b> Leaving Waco at 06:30 puts you in Austin at 09:00, so Austin runs seven meetings instead of eight. Austin Police Retirement System comes out, and the University of Texas investment company moves up to the 75 minute working lunch.</li>
+</ul>
+</section>
+<section class="blk" id="plan-decision">
+<h2>Waco on the Tuesday night, and the detour costs nothing</h2>
+<div class="cards"><div class="card"><div class="k">8 + dinner</div><div class="v">Tuesday meetings reaching 9 institutions, then Waco</div></div><div class="card"><div class="k">7</div><div class="v">Wednesday meetings in Austin, from a 09:00 start</div></div><div class="card"><div class="k">0 miles</div><div class="v">Extra driving the Waco dinner costs. I-35 already runs through it</div></div><div class="card"><div class="k">6</div><div class="v">Houston names to write to today, with no date in the note</div></div><div class="card"><div class="k">16 Nov</div><div class="v">The week to propose for the Houston return trip</div></div></div>
+<div class="say">Dallas Fort Worth, and the dinner decides the shape as well as the city. Run the full Dallas Fort Worth Tuesday, drive down I-35 to Waco for your dinner, sleep there, and leave for Austin at 06:30 Wednesday.</div>
+<p class="meta">Three shapes fit a Waco dinner. The recommended one is the only one that keeps the full Dallas Fort Worth day and still gets you to Austin rested.</p>
+<div class="stack"><table class="tbl"><thead><tr><th>Shape</th><th>How it runs</th><th>What it keeps</th><th>What it costs</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td><b>Waco on the Tuesday night, after a full Dallas Fort Worth day</b><br><span class="src">Recommended</span></td><td data-label="How it runs">Fort Worth breakfast at 07:30, Dallas through the afternoon, leave Dallas 17:25, Waco about 19:10, table at 19:30. Sleep in Waco. Leave 06:30, Barton Oaks about 08:35, Austin starts at 09:00.</td><td data-label="What it keeps">All nine Dallas Fort Worth institutions and seven of the eight Austin slots.</td><td data-label="What it costs">One Austin slot. The Wednesday starts at 09:00 instead of 07:30.</td><td data-label="Why">Waco sits on I-35 between Dallas and Austin, so the dinner costs no extra driving at all. The detour is zero miles.</td></tr>
+<tr><td><b>Waco on the Monday night, before the Dallas Fort Worth day</b><br><span class="src">Not recommended</span></td><td data-label="How it runs">Fly into Dallas Fort Worth or Waco early Monday evening, dinner in Waco Monday, then drive back north to Fort Worth for the 07:30 Tuesday breakfast.</td><td data-label="What it keeps">All eight Austin slots on the Wednesday.</td><td data-label="What it costs">A much earlier Monday flight, and a 05:45 departure from Waco to make the 07:30 Fort Worth breakfast.</td><td data-label="Why">It drives the Dallas to Waco leg twice and puts the hardest wake-up of the trip before the biggest day.</td></tr>
+<tr><td><b>Dinner in Waco, then drive on to Austin the same night</b><br><span class="src">Not recommended</span></td><td data-label="How it runs">Leave Dallas 17:25, dinner at 19:30, leave Waco about 21:30, Austin about 23:10.</td><td data-label="What it keeps">All eight Austin slots, including the 07:30 start.</td><td data-label="What it costs">A 23:10 arrival and about five and a half hours of sleep before a day with eight meetings and the Carmo mixer at the end.</td><td data-label="Why">It buys back one slot by spending the Wednesday. The last three Austin meetings are the ones that suffer.</td></tr>
+</tbody></table></div>
+<ul class="pts">
+<li><b>Waco is free on this route.</b> I-35 runs Dallas to Austin straight through Waco, and the posted Dallas to Austin leg is 3 h 00 <span class="lab f">Fact</span>. Stopping in Waco splits that drive into 1 h 45 and 1 h 40 and adds no miles.</li>
+<li><b>The whole cost is the Wednesday start.</b> Leaving Waco at 06:30 reaches north Austin about 08:10 and Barton Oaks about 08:35 <span class="lab i">Estimate</span>. A 07:30 Austin breakfast is gone, which is one slot.</li>
+<li><b>Waco Regional is not a way in or out.</b> ACT is an American Eagle station flying to and from Dallas Fort Worth and nowhere else <span class="lab f">Fact</span>. Waco only ever means the drive stop on I-35, which is how this plan treats it.</li>
+</ul>
+<div class="ask">If the restaurant can only seat you before 19:30, drop the 16:30 Dallas Police and Fire Pension System slot and leave Dallas at 16:25. Waco then comes up at about 18:10 <span class="lab i">Estimate</span>, which opens any seating from 18:30. That trades one database-row meeting for 80 minutes of margin. Keep the meeting if 19:30 works.</div>
+</section>
+<section class="blk" id="plan-waco">
+<h2>Waco: your dinner reaches the whole Baylor decision chain</h2>
+<div class="say">Your three guests are the chief investment officer and both of the named private investments people at Baylor. Your three guests are the chief investment officer and both of the named private investments people at Baylor. A daytime meeting would reach the same three people, which is why the trip does not need one. No daytime Baylor meeting is worth asking for on this trip.</div>
+<p class="meta">You named your guests as <b>David Morehead, Renee Hanna and Jin Dingmore</b> <span class="lab j">Jodi, 14:22</span>. Baylor's own investment team page publishes the three below. Renee Hanna and Jin Dingmore match exactly. The nearest public match for David Morehead is <b>Dave Morehead, Chief Investment Officer</b> <span class="lab i">Inference</span>.</p>
+<div class="stack"><table class="tbl"><thead><tr><th>Published on Baylor's investment team page</th><th>Title</th></tr></thead>
+<tbody>
+<tr><td><b>Dave Morehead, CFA</b></td><td data-label="Title">Chief Investment Officer (Marketable Investments)</td></tr><tr><td><b>Renee Hanna, CFA</b></td><td data-label="Title">Managing Director of Investments, Private Investments</td></tr><tr><td><b>Jin Dingmore, CFA</b></td><td data-label="Title">Director of Investments (Private Investments)</td></tr>
+</tbody></table></div>
+<ul class="pts">
+<li><b>Baylor University scores 4 and carries no relationship row in your files.</b> Your dinner is the relationship, which is why this institution moves from a dropped name to the reason the trip goes north.</li>
+<li><b>The one ask worth making before dinner.</b> Send Fund II materials ahead to <b>Renee Hanna</b>, who owns private investments on Baylor's own page <span class="lab f">Fact</span>. That lets the private investments conversation start at the table instead of after it.</li>
+<li><b>Kailey Ransom is the fourth name on that desk.</b> Senior Investment Analyst, Private Investments <span class="lab f">Fact</span>. She is the person who would do the diligence reading, so ask at dinner whether to copy her.</li>
+<li><b>Waco has no daytime window on this trip.</b> Tuesday daytime is Fort Worth and Dallas, and Wednesday morning is the drive to Austin. A daytime meeting would need a third Texas day.</li>
+</ul>
+</section>
+<section class="blk" id="plan-tuesday">
+<h2>Tuesday 20 October: Fort Worth, Dallas, then I-35 down to your table in Waco</h2>
+<p class="meta">Eight meetings reaching nine institutions, unchanged from the version you read at 13:26, then the drive to Waco. Slots are 45 minutes, the breakfast 60, the lunch 75. Every slot has a positive buffer to the next one, the smallest being three minutes. Each row names the fallback to call if that institution declines.</p>
+<div class="stack"><table class="tbl"><thead><tr><th>Time</th><th>Institution and who</th><th>The ask</th><th>Where</th><th>Drive from the last stop</th><th>If they decline</th></tr></thead>
+<tbody>
+<tr><td><b>07:30</b><br><span class="src">60 min</span></td><td data-label="Who"><b>Cook Children's Health Care System</b> <b>·</b> score 5<br><span class="src">B. Anthony (Tony) Bagwell, Senior Vice President, Chief Institutional Investment Officer</span></td><td data-label="The ask">Working breakfast. Lead with the two healthcare venture funds they already hold, then Fund II.</td><td data-label="Where">801 Seventh Avenue, Fort Worth medical district</td><td data-label="Drive">Walk or short ride from your downtown Fort Worth hotel <span class="lab i">Estimate</span></td><td data-label="If they decline">Kimbell Art Foundation, 3230 Camp Bowie Blvd, Cultural District, 8 min</td></tr>
+<tr><td><b>08:45</b><br><span class="src">45 min</span></td><td data-label="Who"><b>Texas Christian University, TCU Investment Management</b> <b>·</b> score 4<br><span class="src">Jason R. Safran, CFA, Chief Investment Officer</span></td><td data-label="The ask">Go in through Keith Garrison, Director of Alternative Assets, who is already a relationship row in your files.</td><td data-label="Where">TCU area, Fort Worth; street address not published</td><td data-label="Drive">Cook Children's to the TCU area, 10 min <span class="lab f">Fact</span></td><td data-label="If they decline">Kimbell Art Foundation, Cultural District, 8 min</td></tr>
+<tr><td><b>09:45</b><br><span class="src">45 min</span></td><td data-label="Who"><b>Fort Worth Employees' Retirement Fund</b> <b>·</b> score 5<br><span class="src">Derrick Dagnan, Chief Investment Officer</span></td><td data-label="The ask">Lead with the science. Dagnan began his career as a sell-side healthcare equity research analyst.</td><td data-label="Where">3801 Hulen Street, Suite 101, Fort Worth</td><td data-label="Drive">TCU area to Hulen Street, 8 min <span class="lab f">Fact</span></td><td data-label="If they decline">Rainwater Charitable Foundation, 777 Main Street, Suite 2250, 12 min</td></tr>
+<tr><td><b>10:45</b><br><span class="src">45 min</span></td><td data-label="Who"><b>Crestline Investors</b> <b>·</b> score 4<br><span class="src">Douglas K. Bratton, Founder and Executive Managing Director</span></td><td data-label="The ask">Ask for the investment team. You hold five relationship rows here.</td><td data-label="Where">201 Main Street, Suite 2100, downtown Fort Worth</td><td data-label="Drive">Hulen Street to Main Street, 12 min <span class="lab f">Fact</span></td><td data-label="If they decline">Sid W. Richardson Foundation and Amon G. Carter Foundation, one table on Main Street, 5 min</td></tr>
+<tr><td><b>11:45</b></td><td colspan="5"><b>Depart Fort Worth for the Dallas lunch.</b> 35 miles on I-30 East, then the Dallas North Tollway up to Park Cities. Allow 55 minutes door to door, which puts you at Boaz Lane about 12:40 for the 12:45 lunch. Fort Worth to SMU, 55 min <span class="lab i">Estimate</span></td></tr>
+<tr><td><b>12:45</b><br><span class="src">75 min</span></td><td data-label="Who"><b>Southern Methodist University Investment Office</b> <b>·</b> score 5<br><span class="src">Rakesh Dahiya, CFA, Chief Investment Officer</span></td><td data-label="The ask">Working lunch, and treat it as a working session. SMU runs venture as its own asset class and already holds a life science commitment.</td><td data-label="Where">6405 Boaz Lane, Park Cities, Dallas</td><td data-label="Drive">Arrive about 12:40 off the I-30 leg above </td><td data-label="If they decline">Southwestern Medical Foundation, Parkland Hall at Old Parkland, 3889 Maple Avenue, 10 min</td></tr>
+<tr><td><b>14:15</b><br><span class="src">45 min</span></td><td data-label="Who"><b>Communities Foundation of Texas</b> <b>·</b> score 5<br><span class="src">Gary Samberson, Chief Investment Officer</span></td><td data-label="The ask">Same decision maker as the lunch. Rakesh Dahiya chairs this investment committee and is SMU's chief investment officer.</td><td data-label="Where">5500 Caruth Haven Lane, Dallas</td><td data-label="Drive">SMU to Caruth Haven Lane, 10 min <span class="lab f">Fact</span></td><td data-label="If they decline">Baylor Scott &amp; White Health, Dallas, 15 min</td></tr>
+<tr><td><b>15:30</b><br><span class="src">45 min</span></td><td data-label="Who"><b>Crow Holdings Capital, with the Crow family branch partnerships</b> <b>·</b> score 4<br><span class="src">Robert Arthur McClain, Chief Executive Officer and President, Crow Holdings Capital</span></td><td data-label="The ask">One table reaches both pools. Crow Holdings, L.P. has no investment staff page of its own and shares your six relationship rows.</td><td data-label="Where">3819 Maple Avenue, Uptown Dallas</td><td data-label="Drive">Caruth Haven Lane to Uptown, 15 min <span class="lab i">Estimate</span></td><td data-label="If they decline">Lyda Hill Philanthropies, Pegasus Park, 10 min</td></tr>
+<tr><td><b>16:30</b><br><span class="src">45 min</span></td><td data-label="Who"><b>Dallas Police and Fire Pension System</b> <b>·</b> score 4<br><span class="src">Ryan Wagner, Chief Investment Officer</span></td><td data-label="The ask">Ask for the four-person investment team in the room with Wagner. This is the slot to drop if you want the dinner table before 19:30.</td><td data-label="Where">4100 Harry Hines Boulevard, Suite 100, Dallas</td><td data-label="Drive">Uptown to Harry Hines Boulevard, 10 min <span class="lab i">Estimate</span></td><td data-label="If they decline">Employees' Retirement Fund of the City of Dallas, 1920 McKinney Avenue, 10th Floor, 10 min</td></tr>
+<tr><td><b>17:25</b></td><td colspan="5"><b>Depart Dallas for Waco.</b> 95 miles straight down I-35 South. The 16:30 meeting ends at 17:15, which leaves ten minutes to the car. Allow 1 h 45 into the Tuesday evening, so Waco about 19:10. Dallas to Waco, 1 h 45 allowing for the evening <span class="lab i">Estimate</span></td></tr>
+<tr><td><b>19:30</b><br><span class="src">Evening</span></td><td data-label="Who"><b>Dinner in Waco with the Baylor investment office</b> <b>·</b> score 4 <span class="lab j">Jodi, 14:22</span><br><span class="src">David Morehead, Renee Hanna and Jin Dingmore, Your guests, per your 14:22 message</span></td><td data-label="The ask">Your dinner, your restaurant. Book the table for 19:30. The drive out of Dallas is the variable in the day.</td><td data-label="Where">Waco, your choice of restaurant</td><td data-label="Drive">Already in Waco </td><td data-label="If they decline">None needed. This is the reason the trip goes to Dallas Fort Worth.</td></tr>
+</tbody></table></div>
+<div class="flag">The 17:25 departure is the tightest point in the day. The 16:30 meeting ends at 17:15, Dallas to Waco is 95 miles of I-35, and the plan allows 1 h 45 for the Tuesday evening <span class="lab i">Estimate</span>, which puts you in Waco about 19:10 for a 19:30 table. Leaving after about 17:35 puts the table at risk, so if the 16:30 meeting runs long, leave anyway.</div>
+</section>
+<section class="blk" id="plan-wednesday">
+<h2>Wednesday 21 October: Waco at 06:30, seven meetings in Austin, then the mixer</h2>
+<p class="meta">Seven slots from a 09:00 start. Eleven Austin institutions score 4 or 5. Teacher Retirement System of Texas and Texas Municipal Retirement System come out on Jeremy's de-select. Austin Community Foundation holds the standing fallback because its money is run by an outsourced advisor. Austin Police Retirement System is the slot the Waco dinner costs.</p>
+<div class="stack"><table class="tbl"><thead><tr><th>Time</th><th>Institution and who</th><th>The ask</th><th>Where</th><th>Drive from the last stop</th><th>If they decline</th></tr></thead>
+<tbody>
+<tr><td><b>06:30</b></td><td colspan="5"><b>Depart Waco for Austin.</b> 100 miles on I-35 South. Posted 1 h 40, so north Austin about 08:10 and Barton Oaks about 08:35. Waco to Austin, 1 h 40 posted <span class="lab f">Fact</span></td></tr>
+<tr><td><b>09:00</b><br><span class="src">60 min</span></td><td data-label="Who"><b>Texas County &amp; District Retirement System</b> <b>·</b> score 5<br><span class="src">Jon Shoen, Deputy Chief Investment Officer</span></td><td data-label="The ask">Shoen has primary oversight of the private equity book. Twelve relationship rows, the most of any score 5 institution in Texas.</td><td data-label="Where">Barton Oaks Plaza IV, Suite 500, 901 S. MoPac Expressway</td><td data-label="Drive">In from Waco, then 25 min across Austin to Barton Oaks <span class="lab i">Estimate</span></td><td data-label="If they decline">Austin Community Foundation, 4315 Guadalupe Street, Suite 300, 15 min</td></tr>
+<tr><td><b>10:15</b><br><span class="src">45 min</span></td><td data-label="Who"><b>Austin Fire Fighters Relief and Retirement Fund</b> <b>·</b> score 4<br><span class="src">Anumeha Kumar, Executive Director</span></td><td data-label="The ask">Meketa Investment Group is the consultant of record, so expect the consultant question in the room.</td><td data-label="Where">4101 Parkstone Heights Drive, Suite 270</td><td data-label="Drive">Barton Oaks to Parkstone Heights, 8 min <span class="lab i">Estimate</span></td><td data-label="If they decline">Austin Community Foundation, Guadalupe Street, 15 min</td></tr>
+<tr><td><b>11:15</b><br><span class="src">45 min</span></td><td data-label="Who"><b>Michael &amp; Susan Dell Foundation</b> <b>·</b> score 4<br><span class="src">Janet Mountain, Head of the Michael &amp; Susan Dell Foundation</span></td><td data-label="The ask">The one Austin foundation on the list with a health mandate of its own. Lead with the science.</td><td data-label="Where">4417 Westlake Drive, Westlake</td><td data-label="Drive">Parkstone Heights to Westlake, 10 min <span class="lab i">Estimate</span></td><td data-label="If they decline">Austin Community Foundation, Guadalupe Street, 20 min</td></tr>
+<tr><td><b>12:30</b><br><span class="src">75 min</span></td><td data-label="Who"><b>The University of Texas / Texas A&amp;M Investment Management Company</b> <b>·</b> score 4<br><span class="src">Patrick Pace, Senior Managing Director, Private Equity</span></td><td data-label="The ask">Working lunch, upgraded from a 45 minute slot. Pace leads venture, buyout and private credit globally, and MD Anderson's endowment pools here, so the Houston science conversation happens at this table and does not need a Houston slot.</td><td data-label="Where">210 West 7th Street, Suite 1700, downtown Austin</td><td data-label="Drive">Westlake to downtown, 20 min <span class="lab i">Estimate</span></td><td data-label="If they decline">Texas Mutual Insurance Company, 2200 Aldrich Street, Mueller, 15 min</td></tr>
+<tr><td><b>14:00</b><br><span class="src">45 min</span></td><td data-label="Who"><b>Texas Permanent School Fund Corporation</b> <b>·</b> score 4<br><span class="src">Erin Wedepohl, CFA, Vice President, Private Equity</span></td><td data-label="The ask">Seventeen relationship rows here. Ask Wedepohl directly for the private equity screen.</td><td data-label="Where">1300 Red River Street, Suite 700</td><td data-label="Drive">Downtown Austin to Red River Street, 8 min <span class="lab f">Fact</span></td><td data-label="If they decline">City of Austin Employees' Retirement System, Mueller, 15 min</td></tr>
+<tr><td><b>15:00</b><br><span class="src">45 min</span></td><td data-label="Who"><b>Employees Retirement System of Texas</b> <b>·</b> score 4<br><span class="src">Ricardo Lyra, Managing Director of Private Equity</span></td><td data-label="The ask">File through the adviser portal first. It is an inbound route with a queue, so the meeting confirms what the portal starts.</td><td data-label="Where">200 East 18th Street</td><td data-label="Drive">Red River Street to East 18th Street, 6 min <span class="lab f">Fact</span></td><td data-label="If they decline">Austin Community Foundation, Guadalupe Street, 10 min</td></tr>
+<tr><td><b>16:00</b><br><span class="src">45 min</span></td><td data-label="Who"><b>Texas Treasury Safekeeping Trust Company</b> <b>·</b> score 4<br><span class="src">Anca Ion, CFA, Chief Investment Officer</span></td><td data-label="The ask">Ion runs the whole book in house, and Jyoti Gupta heads venture and growth. Twenty-four relationship rows. This one stays in because only a former employee is on Carmo's list, as an unaffiliated individual.</td><td data-label="Where">1801 N Congress Avenue</td><td data-label="Drive">East 18th Street to North Congress Avenue, 6 min <span class="lab i">Estimate</span></td><td data-label="If they decline">Texas Mutual Insurance Company, Mueller, 15 min</td></tr>
+<tr><td><b>17:00</b></td><td colspan="5"><b>Carmo pre-event networking mixer.</b> Austin Proper Hotel, per Carmo's 6 October email. No start time published on the event page as of 6 October 2026. North Congress Avenue to the 2nd Street District, 12 min <span class="lab i">Estimate</span></td></tr>
+</tbody></table></div>
+<div class="flag">The mixer start time is not published. Carmo's 6 October email gives 21 October at the Austin Proper Hotel and no hour, and the event page carries the 22 October conference only. Keep the evening clear from 17:00 and ask the organiser for the time.</div>
+<div class="flag">Teacher Retirement System of Texas comes out on Jeremy's de-select, because a TRS Principal is confirmed on Carmo's list. The emerging manager programme sits on its own desk. Carmo lists one TRS seat and gives its title as Principal, so the emerging manager desk looks unreached by that seat <span class="lab i">Inference</span>. TRS has placed $6.2bn with 254 emerging managers and writes first investments of $10m to $30m <span class="lab f">Fact</span>, which is why the 23 September plan opened its Austin day with a 07:30 TRS emerging manager breakfast. With the Austin day now starting at 09:00 there is no 07:30 slot to swap it into, so the swap would cost the Texas County &amp; District Retirement System hour. Decide that one with Jeremy. The plan above leaves TRS out.</div>
+<ul class="pts">
+<li><b>Why Austin Police Retirement System is the slot that goes.</b> It is the only Austin name on the list with no named investment staff and no published street address, and AndCo Consulting runs the money <span class="lab f">Fact</span>. The real ask belongs at the consultant.</li>
+<li><b>The lunch got better.</b> The University of Texas investment company moves from a 45 minute slot to the 75 minute working lunch. Patrick Pace leads venture, buyout and private credit globally, and MD Anderson's endowment pools there, so the Houston science conversation happens at that table and needs no Houston slot.</li>
+<li><b>Texas Treasury Safekeeping Trust Company stays in.</b> The Carmo list names a prior Head of Fixed Income and Absolute Return as currently unaffiliated, so the institution itself is not in the room <span class="lab f">Fact</span>.</li>
+<li><b>Seven meetings after a 06:30 start is still a long day.</b> If it needs cutting, cut 10:15 and 15:00. Both score 4 with no relationship row in your files, and both take a call well.</li>
+</ul>
+</section>
+<section class="blk" id="plan-houston">
+<h2>Houston: write to six names today, hold six until you have a week</h2>
+<div class="say">Send the six today. None of the notes names a date, so none of them creates a slot you would have to decline. The two you most want are Rice Management Company and the University of Houston System, and one of those two confirming is what turns a window into a trip.</div>
+<h3>Approach now, with no date in the note</h3>
+<div class="stack"><table class="tbl"><thead><tr><th>Institution</th><th>First door</th><th>Why now</th><th>How to route it</th><th>Anchor the trip on it</th></tr></thead>
+<tbody>
+<tr><td><b>Rice Management Company</b><br><span class="src">score 4 · 17 relationship rows</span></td><td data-label="First door">John D. Lawrence<br><span class="src">Chief Investment Officer and President</span></td><td data-label="Why">The deepest warm bench in Houston at seventeen relationship rows, and the one Houston name Red Tree's own Top 500 file already carries as Tier 0 with the rationale Bio LP, Texas Med Center.</td><td data-label="How to route it">Through a relationship row. John Lawrence appears in your files as Deputy Chief Investment Officer, so confirm the current title before you write.</td><td data-label="Anchor">Yes. This is the name the whole return trip should be built around.</td></tr>
+<tr><td><b>University of Houston System</b><br><span class="src">score 5 · 8 relationship rows</span></td><td data-label="First door">Karin Livingston<br><span class="src">Senior Associate Vice Chancellor / Vice President for Finance</span></td><td data-label="Why">Score 5 with eight relationship rows. Cambridge Associates is in your files as the consultant, so the consultant conversation is already mapped.</td><td data-label="How to route it">Through a relationship row. Raymond Bartlett and Hamilton Lee of Cambridge Associates are both in your files.</td><td data-label="Anchor">Yes. The second name worth anchoring a day on.</td></tr>
+<tr><td><b>Houston Municipal Employees Pension System</b><br><span class="src">score 5 · no relationship rows</span></td><td data-label="First door">Gregory Brunt, CFA<br><span class="src">Chief Investment Officer</span></td><td data-label="Why">Score 5 with a named chief investment officer and a downtown office, so it slots into any shape of Houston day.</td><td data-label="How to route it">Cold to the chief investment officer. No relationship row in your files.</td><td data-label="Anchor">No, but it fills any midday slot once the day has an anchor.</td></tr>
+<tr><td><b>The Moody Foundation</b><br><span class="src">score 5 · no relationship rows</span></td><td data-label="First door">Frances Moody-Dahlberg<br><span class="src">Chairman, Chief Executive Officer and President, Trustee</span></td><td data-label="Why">Score 5, and the only Houston score 5 that needs its own half day. Galveston is 1 h 05 each way.</td><td data-label="How to route it">Cold, and the door is a family principal. There is no investment office to write to. This is the longest lead time on the list, which is exactly why it goes out now.</td><td data-label="Anchor">It anchors the second Houston day. The first day needs a closer anchor.</td></tr>
+<tr><td><b>Texas Children's Hospital</b><br><span class="src">score 4 · no relationship rows</span></td><td data-label="First door">Keith C. Nelson<br><span class="src">Executive Vice President and Chief Investment Officer</span></td><td data-label="Why">A chief investment officer at executive vice president level inside a children's hospital system, which is the closest institutional match in Houston to what Fund II invests in.</td><td data-label="How to route it">Cold to the chief investment officer. Open on the science and let the fund follow.</td><td data-label="Anchor">No. It is a Texas Medical Center morning stop next to Rice.</td></tr>
+<tr><td><b>Memorial Hermann Health System</b><br><span class="src">score 4 · no relationship rows</span></td><td data-label="First door">Todd Centurino<br><span class="src">Vice President, Managing Director and Head of Private Markets</span></td><td data-label="Why">A named head of private markets, which is a better first door than the chief investment officer or the chief financial officer.</td><td data-label="How to route it">Cold to the head of private markets. Alec King is the executive vice president, chief financial officer and treasurer if you want the senior route.</td><td data-label="Anchor">No. Memorial City is a late afternoon stop.</td></tr>
+</tbody></table></div>
+<h3>Hold until you have dates</h3>
+<div class="stack"><table class="tbl"><thead><tr><th>Institution</th><th>First door</th><th>Why it waits</th><th>How to route it</th><th>Anchor the trip on it</th></tr></thead>
+<tbody>
+<tr><td><b>The Cullen Foundation</b><br><span class="src">score 4 · no relationship rows</span></td><td data-label="First door">Scott W. Wise<br><span class="src">Chief Executive Officer and Chief Investment Officer</span></td><td data-label="Why">Score 4 with no relationship row, and one person holds both the chief executive and chief investment roles. A no-date ask to a single decision maker reads as noise.</td><td data-label="How to route it">Hold. Write once you can name the week.</td><td data-label="Anchor">No.</td></tr>
+<tr><td><b>Houston Firefighters' Relief and Retirement Fund</b><br><span class="src">score 4 · no relationship rows</span></td><td data-label="First door">Ajit Singh, FRM, CAIA<br><span class="src">Chief Investment Officer</span></td><td data-label="Why">Its office sits about 40 minutes off every other Houston stop, so it only works as the anchor of a half day. Dropped inside a day it breaks the geography.</td><td data-label="How to route it">Hold. Offer it a morning of its own, or a call.</td><td data-label="Anchor">No.</td></tr>
+<tr><td><b>Houston Police Officers' Pension System</b><br><span class="src">score 4 · no relationship rows</span></td><td data-label="First door">Stacey A. Galo<br><span class="src">Chief Investment Officer</span></td><td data-label="Why">Private equity is fully outsourced to Franklin Park, so the buyer sits at the consultant and the ask is a different ask.</td><td data-label="How to route it">Hold, and route the real ask to Franklin Park instead.</td><td data-label="Anchor">No.</td></tr>
+<tr><td><b>Sentinel Trust Company, LBA</b><br><span class="src">score 4 · no relationship rows</span></td><td data-label="First door">Ingrid Y. Tang, CAIA, CFA<br><span class="src">Portfolio Manager, Corporate Finance and Venture Capital</span></td><td data-label="Why">A multi-family office with a named venture portfolio manager, so the fit is real and the cheque is smaller. It fills a slot once the day exists.</td><td data-label="How to route it">Hold. Tang is the right door when the week is set.</td><td data-label="Anchor">No.</td></tr>
+<tr><td><b>The University of Texas MD Anderson Cancer Center</b><br><span class="src">score 2 · 43 relationship rows</span></td><td data-label="First door">Patrick Pace<br><span class="src">Senior Managing Director and Head of Private Equity, UTIMCO</span></td><td data-label="Why">Forty-three relationship rows, the deepest in Houston, and the endowment is run by UTIMCO. The allocator conversation happens at your Wednesday 12:30 lunch in Austin.</td><td data-label="How to route it">No Houston ask needed. Use the Austin lunch, and keep the Houston rows for science introductions.</td><td data-label="Anchor">No. Already covered in Austin on 21 October.</td></tr>
+<tr><td><b>Baylor College of Medicine</b><br><span class="src">score 2 · 7 relationship rows</span></td><td data-label="First door">William Walker<br><span class="src">Vice President and Chief Investment Officer, head of the Investment Office</span></td><td data-label="Why">Seven relationship rows and the only Houston institution with contact records in Red Tree's own files, where it is tiered Pass or Low. The score puts it below the Fund II line, and its value is scientific credibility.</td><td data-label="How to route it">Hold. Worth a coffee when you are already in the Texas Medical Center.</td><td data-label="Anchor">No.</td></tr>
+</tbody></table></div>
+<div class="flag">No Houston email addresses are in this workbook, because none of the twelve Houston institutions has a contact row in Red Tree's own contact files, checked on 6 October 2026 <span class="lab f">Fact</span>. The seventeen Rice Management names and eight University of Houston names in your files sit in the master contact database instead. Confirm each address there before you send, and the Houston sheet carries the published decision makers with a source link each.</div>
+</section>
+<section class="blk" id="plan-outreach">
+<h2>Three notes to send today, none of them asking for a meeting</h2>
+<p class="meta">Each one tests interest and leaves the calendar alone. Edit the voice to yours. The only thing to keep in all three is that no date appears anywhere in them.</p>
+<div class="draft">
+<p class="meta"><b>For the four cold names: Houston Municipal Employees Pension System, The Moody Foundation, Texas Children's Hospital, Memorial Hermann</b></p>
+<p class="subj">Subject: Red Tree Fund II, and a Houston visit later this year</p>
+<p>I am Jodi Yang, Managing Director and Head of Capital Formation at Red Tree Venture Capital, where we are raising Fund II.</p><p>I am in Texas next week for the Carmo Texas Private Markets Meeting in Austin, and I am keeping that trip to Dallas Fort Worth and Austin so that Houston gets a proper visit of its own.</p><p>I am planning that Houston trip for later this year, and I want to build it around the people who want the conversation. That means asking about interest before I choose dates.</p><p>Would a Fund II introduction be of interest to you or to someone on your team?</p><p>If it would, I will come back with a week once I know who is in, and work around your calendar.</p>
+<p class="meta">No date, no hour, one question. She can send this today and nothing in it commits her to a week.</p>
+</div><div class="draft">
+<p class="meta"><b>For the two warm names: Rice Management Company and the University of Houston System, sent to the person she already knows</b></p>
+<p class="subj">Subject: A Houston introduction, when the timing suits</p>
+<p>I hope you are well. I am raising Fund II at Red Tree Venture Capital, and Houston is the Texas city I most want to spend real time in.</p><p>I am in Austin next week for the Carmo Texas Private Markets Meeting, and I am deliberately not trying to squeeze Houston into that trip.</p><p>I am putting a Houston trip together for later this year instead.</p><p>Would you be open to an introduction to whoever looks at venture managers there, so I can ask them whether a conversation is worth their time?</p><p>No dates yet. I want to know who is interested first, then build the days around them.</p>
+<p class="meta">The ask is an introduction, which is a smaller favour than a meeting and does not require the recipient to hold a calendar slot.</p>
+</div><div class="draft">
+<p class="meta"><b>For anyone who hears she was in Texas and was not asked, including the hold list</b></p>
+<p class="subj">Subject: In Texas next week, and saving Houston for a real visit</p>
+<p>I wanted you to hear this from me first. I am in Texas next week for the Carmo Texas Private Markets Meeting in Austin, on 22 October.</p><p>The two days before it are committed to Dallas Fort Worth and Austin, so I am not asking you for a meeting next week.</p><p>Houston deserves more than a stop on the way to somewhere else, so I am planning a trip built around Houston alone.</p><p>I will write again with a week once I know who wants the conversation.</p><p>If there is a month that is easier than another on your side, tell me now and I will plan around it.</p>
+<p class="meta">This is the message that protects the relationship with the names she is skipping. It also collects the one piece of scheduling information she needs without asking for a slot.</p>
+</div>
+<ul class="pts">
+<li><b>Why no date works better here.</b> A named week to someone who has not agreed to meet forces a yes or no on availability, and the no that comes back closes the conversation. Asking about interest first keeps the thread open while you still have time to build a week around it.</li>
+<li><b>The one question to ask every time.</b> Whether a month is easier than another on their side. That single answer is what lets you pick the week, and it costs the recipient nothing to give.</li>
+<li><b>The near-miss note is the one most people skip.</b> Houston contacts will hear that you were in Texas. Telling them first, with the reason, protects the relationship and collects scheduling information at the same time.</li>
+</ul>
+</section>
+<section class="blk" id="plan-return">
+<h2>Propose the week of 16 November, and let the strongest reply pick the day</h2>
+<div class="say">Five to seven weeks out, and propose a week. Let the strongest respondent pick the day inside it. A chief investment officer's calendar fills three to four weeks ahead, so a date proposed inside that window gets declined on availability and reads as a no on interest. A week lets the strongest respondent choose the day, and everyone else fills in around them.</div>
+<div class="stack"><table class="tbl"><thead><tr><th>Week</th><th>Verdict</th><th>How far out</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td><b>Monday 16 November 2026</b></td><td data-label="Verdict">First choice</td><td data-label="How far out">Six weeks after the outreach goes out</td><td data-label="Note">Clear of US Thanksgiving, which falls on Thursday 26 November 2026, and far enough out that a chief investment officer can still move things.</td></tr>
+<tr><td><b>Monday 7 December 2026</b></td><td data-label="Verdict">Second choice</td><td data-label="How far out">Nine weeks out</td><td data-label="Note">Still clear of the holidays if the days land before 11 December. Institutional calendars thin out after that.</td></tr>
+<tr><td><b>Monday 11 January 2027</b></td><td data-label="Verdict">Fallback</td><td data-label="How far out">Fourteen weeks out</td><td data-label="Note">Use this only if neither November nor December clears. January restarts the interest conversation from cold.</td></tr>
+</tbody></table></div>
+<div class="flag">The week of Monday 23 to Friday 27 November 2026. Thanksgiving is Thursday 26 November, so that whole week is dead. <span class="lab f">Fact</span></div>
+<div class="ask">Two days, with Galveston on the second. Houston has ten institutions scoring 4 or 5 and one of them sits in Galveston, so a single day repeats the squeeze that pushed Houston out of this trip.</div>
+<h3>The loop, step by step</h3>
+<div class="stack"><table class="tbl"><thead><tr><th class="num">Step</th><th>When</th><th>What to do</th></tr></thead>
+<tbody>
+<tr><td class="num"><b>1</b></td><td data-label="When">Today, 6 October</td><td data-label="What to do">Send the interest note to the four cold names and the introduction request to the two warm ones. Send the near-miss note to the hold list. No dates in any of them.</td></tr>
+<tr><td class="num"><b>2</b></td><td data-label="When">By Tuesday 27 October</td><td data-label="What to do">Collect replies. Two things matter in them. Whether they are interested, and any month they volunteer as easier.</td></tr>
+<tr><td class="num"><b>3</b></td><td data-label="When">Wednesday 28 October</td><td data-label="What to do">Pick the week. Take the week of 16 November unless a respondent named a reason not to, and check that Rice Management or the University of Houston System is among the people who said yes.</td></tr>
+<tr><td class="num"><b>4</b></td><td data-label="When">Thursday 29 October</td><td data-label="What to do">Write to the strongest respondent first with the week and let them pick the day and the hour. That one reply fixes the spine of the trip.</td></tr>
+<tr><td class="num"><b>5</b></td><td data-label="When">Friday 30 October</td><td data-label="What to do">Fill around them by geography. Texas Medical Center in the morning, downtown and Allen Parkway midday, Upper Kirby and Memorial City late afternoon.</td></tr>
+<tr><td class="num"><b>6</b></td><td data-label="When">Early November</td><td data-label="What to do">Give Galveston its own morning on day two and drive back for a Houston lunch. The Moody Foundation is the only reason to make that drive, and it is reason enough at score 5.</td></tr>
+</tbody></table></div>
+<h3>How the days cluster once you have a day fixed</h3>
+<div class="stack"><table class="tbl"><thead><tr><th>Cluster</th><th>Names</th><th>Legs</th></tr></thead>
+<tbody>
+<tr><td><b>Texas Medical Center, morning</b></td><td data-label="Names">Texas Children's Hospital, Rice Management Company, Baylor College of Medicine</td><td data-label="Legs">5 to 15 min apart</td></tr>
+<tr><td><b>Downtown and Allen Parkway, midday</b></td><td data-label="Names">Houston Municipal Employees Pension System, The Cullen Foundation</td><td data-label="Legs">10 to 15 min apart</td></tr>
+<tr><td><b>Upper Kirby and Memorial City, afternoon</b></td><td data-label="Names">Sentinel Trust Company, Memorial Hermann Health System</td><td data-label="Legs">12 to 20 min apart</td></tr>
+<tr><td><b>Galveston, day two morning</b></td><td data-label="Names">The Moody Foundation</td><td data-label="Legs">1 h 05 each way</td></tr>
+<tr><td><b>Its own half day, or a call</b></td><td data-label="Names">Houston Firefighters' Relief and Retirement Fund</td><td data-label="Legs">about 40 min off every other stop</td></tr>
+</tbody></table></div>
+</section>
+<section class="blk" id="plan-friday">
+<h2>Friday 23 October in Houston: only if an anchor confirms by 13 October</h2>
+<div class="say">Conditional. Take the Friday only if Rice Management or the University of Houston System confirms by about Tuesday 13 October.</div>
+<ul class="pts">
+<li><b>For it.</b> The drive out of Austin is the easy direction. Austin to Houston is 2 h 45 posted, the same leg the six-day plan used in reverse, and you would drive it on the Thursday evening after the Carmo floor closes.</li><li><b>For it.</b> It dodges the worst airport day of the week. Friday 23 October is first practice at Circuit of The Americas, so Austin-Bergstrom and the roads to it are at their peak. Flying home from Houston instead removes that problem entirely.</li><li><b>For it.</b> One confirmed Houston anchor makes the day real. Two more stops fall into place around it from the Texas Medical Center cluster.</li>
+<li><b>Against it.</b> With no confirmation by 13 October you would be driving 2 h 45 on a Thursday night for a day you are still assembling, after three working days and a conference.</li><li><b>Against it.</b> The two names worth anchoring on are the two the return trip most needs. Spending them on a thin Friday weakens the trip you are trying to build.</li><li><b>Against it.</b> Your Houston outreach says you are saving Houston for a real visit. A Friday stop undercuts that line with the same people you just sent it to.</li>
+</ul>
+<div class="ask">Set the cut-off at Tuesday 13 October. If one of the two anchors is in by then, book the Thursday evening drive and the Friday evening flight out of Houston. If not, fly home Thursday evening from Austin as planned and keep Houston whole.</div>
+<p class="meta">The drive figure is the 23 September plan's Houston to Austin leg read in the other direction, 2 h 45 posted <span class="lab f">Fact</span>. Friday 23 October being first practice at Circuit of The Americas is also what makes a Houston departure the easier way home that day.</p>
+</section>
+<section class="blk" id="plan-flights">
+<h2>Fly into Dallas Fort Worth Monday night, home from Austin Thursday evening</h2>
+<h3>Four nights, and one of them is new</h3>
+<div class="stack"><table class="tbl"><thead><tr><th>Night</th><th>Where to sleep</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td><b>Mon 19 Oct</b></td><td data-label="Where">Downtown Fort Worth</td><td data-label="Why">The first four stops are 8 to 12 minutes apart from there.</td></tr>
+<tr><td><b>Tue 20 Oct</b></td><td data-label="Where">Waco</td><td data-label="Why">New. This is the night the dinner adds, and it replaces the Austin night of 20 October.</td></tr>
+<tr><td><b>Wed 21 Oct</b></td><td data-label="Where">Austin</td><td data-label="Why">Book it now. Formula 1 week fills the city behind the race.</td></tr>
+<tr><td><b>Thu 22 Oct</b></td><td data-label="Where">Austin, hold then release</td><td data-label="Why">Hold it until the Thursday evening flight home is ticketed, then let it go.</td></tr>
+</tbody></table></div>
+<div class="flag">This replaces the room plan in the 13:26 version, which held Austin for the nights of 20, 21 and 22 October. The Waco dinner takes the night of 20 October, so release that Austin night and book Waco for it. Austin on 21 October still needs booking now, because Formula 1 week fills the city behind the race.</div>
+<ul class="pts">
+<li><b>Dallas Fort Worth International (DFW) is the one to book. It sits between the two cities, about 25 minutes from downtown Fort Worth.</b> <span class="lab i">Estimate</span></li>
+<li><b>Second choice.</b> Dallas Love Field (DAL) works if the schedule is better, about 30 minutes from downtown Fort Worth. <span class="lab i">Estimate</span></li>
+<li><b>Last practical arrival.</b> Wheels down by 22:00 Central on Monday 19 October. Bags, the rental counter and the drive run about 75 minutes, and a 07:30 breakfast needs a 06:15 start. <span class="lab i">Inference</span></li>
+<li><b>The car.</b> One-way rental, picked up at Dallas Fort Worth and dropped in Austin, or in Houston if the Friday add-on happens. A one-way drop charge applies on most Texas one-way rentals, so price it before you book the flight. <span class="lab i">Inference</span></li>
+<li><b>Out of Austin.</b> Austin-Bergstrom International (AUS) is about 20 minutes from downtown Austin. <span class="lab i">Estimate</span> Fly home Thursday 22 October in the evening, after the Four Seasons floor closes.</li>
+<li><b>Thursday evening beats Friday morning.</b> Friday 23 October is first practice at the circuit, and Maroon 5 plays the Germania Insurance Super Stage that night <span class="lab f">Fact</span>. The roads out to Austin-Bergstrom and the terminal itself are at their worst that day.</li>
+<li><b>Formula 1 fills Austin from the Thursday.</b> Circuit of The Americas lists the United States Grand Prix as 22 to 25 October 2026, with a Grand PrixView Thursday on 22 October <span class="lab f">Fact</span>. Carmo's own email says the meeting is hosted during Formula 1 Austin week.</li>
+<li><b>The Wednesday evening is gone.</b> The 23 September Austin plan held a 17:30 meeting and a 19:00 host dinner. Both collide with Carmo's mixer at the Austin Proper Hotel, so this plan closes the Wednesday at the mixer and drops the dinner.</li>
+</ul>
+</section>
+<section class="blk" id="plan-dropped">
+<h2>What these two days give up, and how each one gets handled</h2>
+<p class="meta">Thirty-seven Texas institutions score 4 or 5. These two days reach sixteen, plus Baylor University at dinner. Two more come out because they are confirmed at Carmo. The ten Houston rows below are now a trip of their own.</p>
+<div class="cards">
+<div class="card"><div class="k">37</div><div class="v">Texas institutions scored 4 or 5</div></div>
+<div class="card"><div class="k">16 + 1</div><div class="v">Reached in meetings, plus Baylor at your dinner</div></div>
+<div class="card"><div class="k">10</div><div class="v">Houston names, now their own November trip</div></div>
+<div class="card"><div class="k">2</div><div class="v">De-selected, you see both at Carmo</div></div>
+</div>
+<div class="stack"><table class="tbl"><thead><tr><th>Metro</th><th>Institution</th><th class="num">Score</th><th>Why it is not in these two days</th><th>Handling</th></tr></thead>
+<tbody>
+<tr><td><b>DFW</b></td><td data-label="Institution">Baylor Scott &amp; White Health</td><td class="num" data-label="Score">4</td><td data-label="Why">Dallas afternoon holds four slots and three names outrank it on evidence.</td><td data-label="Handling">Ask for a call that week</td></tr>
+<tr><td><b>DFW</b></td><td data-label="Institution">Kimbell Art Foundation</td><td class="num" data-label="Score">4</td><td data-label="Why">The Fort Worth morning holds four slots. Kimbell is the standing fallback if one declines.</td><td data-label="Handling">Fallback on the day, else the next trip</td></tr>
+<tr><td><b>DFW</b></td><td data-label="Institution">Employees' Retirement Fund of the City of Dallas</td><td class="num" data-label="Score">4</td><td data-label="Why">Downtown Dallas does not fit before the 17:15 departure for Waco. It is the fallback for the 16:30 slot.</td><td data-label="Handling">Fallback on the day, else a call that week</td></tr>
+<tr><td><b>Austin</b></td><td data-label="Institution">Austin Police Retirement System</td><td class="num" data-label="Score">4</td><td data-label="Why">The Waco dinner moves the Wednesday start from 07:30 to 09:00, which costs one Austin slot. This is the slot it costs: no named investment staff, no published street address, and AndCo Consulting runs the money.</td><td data-label="Handling">Call, and route the real ask to AndCo</td></tr>
+<tr><td><b>Austin</b></td><td data-label="Institution">Austin Community Foundation</td><td class="num" data-label="Score">4</td><td data-label="Why">Fiducient Advisors runs the money as outsourced advisor, so the staff is not the buyer. It is the standing Wednesday fallback.</td><td data-label="Handling">Fallback on the day, else a call</td></tr>
+<tr><td><b>Houston</b></td><td data-label="Institution">Rice Management Company</td><td class="num" data-label="Score">4</td><td data-label="Why">Houston is its own trip now. This is the first name to anchor it on.</td><td data-label="Handling">Introduction request today, trip in November</td></tr>
+<tr><td><b>Houston</b></td><td data-label="Institution">University of Houston System</td><td class="num" data-label="Score">5</td><td data-label="Why">Houston is its own trip now. Second anchor candidate.</td><td data-label="Handling">Introduction request today, trip in November</td></tr>
+<tr><td><b>Houston</b></td><td data-label="Institution">Houston Municipal Employees Pension System</td><td class="num" data-label="Score">5</td><td data-label="Why">Houston is its own trip now.</td><td data-label="Handling">Interest note today, no date</td></tr>
+<tr><td><b>Houston</b></td><td data-label="Institution">The Moody Foundation</td><td class="num" data-label="Score">5</td><td data-label="Why">Galveston is 1 h 05 each way, so it needs its own morning on a two-day Houston trip.</td><td data-label="Handling">Interest note today, day two of the return trip</td></tr>
+<tr><td><b>Houston</b></td><td data-label="Institution">Texas Children's Hospital</td><td class="num" data-label="Score">4</td><td data-label="Why">Houston is its own trip now.</td><td data-label="Handling">Interest note today, no date</td></tr>
+<tr><td><b>Houston</b></td><td data-label="Institution">Memorial Hermann Health System</td><td class="num" data-label="Score">4</td><td data-label="Why">Houston is its own trip now.</td><td data-label="Handling">Interest note today, no date</td></tr>
+<tr><td><b>Houston</b></td><td data-label="Institution">The Cullen Foundation</td><td class="num" data-label="Score">4</td><td data-label="Why">Houston is its own trip now, and this one waits for a named week.</td><td data-label="Handling">Hold until you have dates</td></tr>
+<tr><td><b>Houston</b></td><td data-label="Institution">Houston Firefighters' Relief and Retirement Fund</td><td class="num" data-label="Score">4</td><td data-label="Why">Its office sits about 40 minutes off every other Houston stop.</td><td data-label="Handling">Hold, then a half day or a call</td></tr>
+<tr><td><b>Houston</b></td><td data-label="Institution">Houston Police Officers' Pension System</td><td class="num" data-label="Score">4</td><td data-label="Why">Private equity is fully outsourced to Franklin Park.</td><td data-label="Handling">Hold, route the ask to the consultant</td></tr>
+<tr><td><b>Houston</b></td><td data-label="Institution">Sentinel Trust Company, LBA</td><td class="num" data-label="Score">4</td><td data-label="Why">Houston is its own trip now.</td><td data-label="Handling">Hold until you have dates</td></tr>
+<tr><td><b>College Station</b></td><td data-label="Institution">Texas A&amp;M Foundation</td><td class="num" data-label="Score">4</td><td data-label="Why">The College Station hook only paid on the Houston route, and Houston is no longer this trip.</td><td data-label="Handling">Add it to the Houston return trip</td></tr>
+<tr><td><b>College Station</b></td><td data-label="Institution">The Texas A&amp;M University System</td><td class="num" data-label="Score">4</td><td data-label="Why">Same hook, same reason.</td><td data-label="Handling">Add it to the Houston return trip</td></tr>
+<tr><td><b>San Antonio</b></td><td data-label="Institution">San Antonio Fire and Police Pension Fund</td><td class="num" data-label="Score">4</td><td data-label="Why">San Antonio is not on this route.</td><td data-label="Handling">Next trip</td></tr>
+<tr><td><b>Austin</b></td><td data-label="Institution">Teacher Retirement System of Texas</td><td class="num" data-label="Score">4</td><td data-label="Why">Confirmed on Carmo's attendee list, a Principal seat.</td><td data-label="Handling">See at Carmo, Thursday 22 October</td></tr>
+<tr><td><b>Austin</b></td><td data-label="Institution">Texas Municipal Retirement System</td><td class="num" data-label="Score">4</td><td data-label="Why">Confirmed on Carmo's attendee list, a Portfolio Manager seat.</td><td data-label="Handling">See at Carmo, Thursday 22 October</td></tr>
+</tbody></table></div>
+</section>
+<section class="blk" id="plan-method">
+<h2>What this plan assumes, and where every number came from</h2>
+<ul class="pts">
+<li><b>Your own decisions.</b> The dinner, the three guests and the restaurant are from your 14:22 message on 6 October 2026, and are marked <span class="lab j">Jodi, 14:22</span> wherever they appear. The choice to prioritise Dallas Fort Worth and hold Houston for a dedicated trip is yours as well. This plan works out the sequencing those choices imply.</li>
+<li><b>Baylor names.</b> Your spelling is printed as you wrote it. Renee Hanna and Jin Dingmore match Baylor's published investment team page exactly. David Morehead is matched to the published Dave Morehead by inference and is labelled as such.</li>
+<li><b>Slot length.</b> Meetings are 45 minutes, working breakfasts 60 and working lunches 75. That cadence comes from the 23 September roadshow plan.</li>
+<li><b>Drive times.</b> Every leg marked <span class="lab f">Fact</span> is carried from the 23 September page, which states the mileage and the road behind each. Every leg marked <span class="lab i">Estimate</span> is new to this plan, including the Dallas to Waco split of the Dallas to Austin leg and the Waco to Barton Oaks arrival.</li>
+<li><b>Houston contact addresses.</b> Drawn only from Red Tree's own contact files, which hold no rows for any of the twelve Houston institutions. The workbook therefore carries published decision makers and source links for Houston and no addresses.</li>
+<li><b>The de-select rule.</b> An institution comes out only when the institution itself is on Carmo's confirmed list. Teacher Retirement System of Texas and Texas Municipal Retirement System qualify. Texas Treasury Safekeeping Trust Company does not, because the Carmo seat is a former employee attending as an unaffiliated individual.</li>
+<li><b>Scoring.</b> Score 5 means a path already held, a live venture programme, named biotech evidence and a seat in the metro. Score 4 drops one of those, usually the biotech commitment. A relationship row means a real relationship in the files. A database record does not count.</li>
+<li><b>Thanksgiving.</b> Thanksgiving 2026 falls on Thursday 26 November, so the dead week is Monday 23 to Friday 27 November. Both recommended return weeks clear it.</li>
+<li><b>What is not here.</b> No flight numbers, no cheque size and no fund figures. Contact email addresses are in the workbook only.</li>
+</ul>
+</section>
+<section class="blk" id="plan-sources">
+<h2>Sources and downloads</h2>
+<div class="btns"><a class="btn" href="https://backed-iv.gregspero.com/deliverables">Open the hub: the v2.0 workbook and the master CSV</a>
+<a class="btn alt" href="https://backed-iv.gregspero.com/deliverables">The 13:26 version of this page, and the 23 September roadshow plan</a></div>
+<ul class="pts">
+<li><b>Your message of 14:22, 6 October 2026.</b> Source for the Waco dinner, the three guests, the chosen restaurant, the Dallas Fort Worth priority and the decision to make Houston a dedicated trip.</li>
+<li><b>Baylor University investment team</b>, <a href="https://investments.web.baylor.edu/investment-team">investments.web.baylor.edu/investment-team</a>, read 6 October 2026. Source for Dave Morehead as Chief Investment Officer, Renee Hanna as Managing Director of Investments in Private Investments, Jin Dingmore as Director of Investments in Private Investments, and Kailey Ransom as Senior Investment Analyst.</li>
+<li><b>Carmo's confirmed attendee list</b>, forwarded 6 October 2026. It names the 21 October mixer at the Austin Proper Hotel, the 22 October conference at the Four Seasons Hotel Austin, and Formula 1 Austin week.</li>
+<li><b>Carmo event page</b>, <a href="https://www.carmocompanies.com/texas-private-markets-meeting">carmocompanies.com/texas-private-markets-meeting</a>, read 6 October 2026. It publishes the 22 October conference and no mixer time.</li>
+<li><b>The 23 September 2026 Texas roadshow plan v1.0</b>, on <a href="https://backed-iv.gregspero.com/deliverables">the hub</a>. Source for every address, neighbourhood, intercity leg and slot length reused here.</li>
+<li><b>Circuit of The Americas</b>, <a href="https://circuitoftheamericas.com/event/f1/tickets/">the United States Grand Prix ticket page</a>, read 6 October 2026. It lists October 22 to 25, 2026 and names the Grand PrixView Thursday.</li>
+<li><b>Race weekend concerts</b>, <a href="https://www.austinmonthly.com/2026-formula-1-u-s-grand-prix-concerts-in-austin/">Austin Monthly</a>, read 6 October 2026: "Maroon 5 will kick off the much-hyped performances on Friday, Oct. 23 at the Germania Insurance Super Stage."</li>
+<li><b>Waco Regional Airport service</b>, <a href="https://destinationwaco.org/getting-to-waco/">Destination Waco, getting to Waco</a>, read 6 October 2026: "Waco Regional Airport (ACT) is serviced by American Eagle flying to and from DFW."</li>
+<li><b>TRS Emerging Manager Program</b>, <a href="https://trs.texas.gov/investments/teams/emerging-managers">trs.texas.gov emerging managers</a>. The $6.2bn, 254 managers and $10m to $30m first investments are carried from the 23 September roadshow plan and match what the TRS page publishes.</li>
+<li><b>Red Tree's own contact files</b>, checked 6 October 2026 for every Houston institution on this page: the Fund II cleaned contact list, the June 2026 Top 500 LP file, the Red Tree clean contact set and the warm-path master. The Top 500 file carries Rice Management Company as Tier 0 with the rationale "Bio LP, Texas Med Center" and no contact row.</li>
+<li><b>The scored list of 155 Texas institutions</b>, the same dataset behind the 23 September workbook, on <a href="https://backed-iv.gregspero.com/deliverables">the hub</a>.</li>
+</ul>
+<p class="meta">Evidence link for each institution named on this page:</p>
+<ul class="pts"><li>Cook Children's Health Care System, <a href="https://www.causeiq.com/organizations/view_990/752051649/14c28989a4deb349d120434f8a1f6fbb">evidence source</a></li><li>Texas Christian University, TCU Investment Management, <a href="https://endowment.tcu.edu/strategies/">evidence source</a></li><li>Fort Worth Employees' Retirement Fund, <a href="https://www.fwretirement.org/financial/investment_managers/index.php">evidence source</a></li><li>Crestline Investors, <a href="https://www.crestlineinvestors.com/our-firm/">evidence source</a></li><li>Southern Methodist University Investment Office, <a href="https://www.privateequityinternational.com/institution-profiles/southern-methodist-university.html">evidence source</a></li><li>Communities Foundation of Texas, <a href="https://www.cftexas.org/community-impact/ww-caruth-fund/">evidence source</a></li><li>Crow Holdings Capital, with the Crow family branch partnerships, <a href="https://reports.adviserinfo.sec.gov/reports/ADV/156925/PDF/156925.pdf">evidence source</a></li><li>Dallas Police and Fire Pension System, <a href="https://www.dpfp.org/Resources/7ad6f08a-2242-466b-bb4b-74405e461055/2025">evidence source</a></li><li>Dinner in Waco with the Baylor investment office, <a href="https://investments.web.baylor.edu/news/story/2025/investing-purpose-baylor-university">evidence source</a></li><li>Texas County &amp; District Retirement System, <a href="https://www.tcdrs.org/investments/recent-activity/">evidence source</a></li><li>Austin Fire Fighters Relief and Retirement Fund, <a href="https://www.afrfund.org/Resources/75888855-75ad-40f9-9baf-395210e496d4/August%202026%20Meketa%20Report%20(2Q26).pdf">evidence source</a></li><li>Michael &amp; Susan Dell Foundation, <a href="https://www.dell.org/team/">evidence source</a></li><li>The University of Texas / Texas A&amp;M Investment Management Company, <a href="https://houstonendowment.org/people/susan-chen">evidence source</a></li><li>Texas Permanent School Fund Corporation, <a href="https://texaspsf.org/wp-content/uploads/2026/06/2025-acfr-texas-permanent-school-fund-corporation_a11y.pdf">evidence source</a></li><li>Employees Retirement System of Texas, <a href="https://ers.texas.gov/About-ERS/ERS-Investments-overview/Investments-Division/ERS-Investment-Policy.pdf">evidence source</a></li><li>Texas Treasury Safekeeping Trust Company, <a href="https://ttstc.com/investments/">evidence source</a></li><li>Rice Management Company, <a href="https://investments.rice.edu/sites/g/files/bxs2926/files/inline-files/FY24-Endowment-Update.pdf">evidence source</a></li><li>University of Houston System, <a href="https://www.uhsystem.edu/offices/treasury/investdisclose/revised-annual-investment-manager-disclosure-2025.pdf">evidence source</a></li><li>Houston Municipal Employees Pension System, <a href="https://hmeps.org/wp-content/uploads/2025/12/2025-HMEPS-Annual-Report_FNL.pdf">evidence source</a></li><li>The Moody Foundation, <a href="https://moodyf.org/press/25m-to-utmb/">evidence source</a></li><li>Texas Children's Hospital, <a href="https://www.texaschildrens.org/tcri">evidence source</a></li><li>Memorial Hermann Health System, <a href="https://projects.propublica.org/nonprofits/organizations/741152597/202621349349310177/full">evidence source</a></li><li>The Cullen Foundation, <a href="https://www.cullenfdn.org/about-us/">evidence source</a></li><li>Houston Firefighters' Relief and Retirement Fund, <a href="https://www.hfrrf.org/Resources/9cc1d5d9-c8f5-4154-8963-e7ec9af0b3ed/HFRRF%20Investment%20Policy%20Statement%20August%2015,%202023.pdf">evidence source</a></li><li>Houston Police Officers' Pension System, <a href="https://www.hpops.org/media/147892/ad-accounting-acfr-fy-2025.pdf">evidence source</a></li><li>Sentinel Trust Company, LBA, <a href="https://www.sentineltrust.com/">evidence source</a></li><li>The University of Texas MD Anderson Cancer Center, <a href="https://www.utimco.org/media/jikle4hb/20260901-permanent-health-fund.pdf">evidence source</a></li><li>Baylor College of Medicine, <a href="https://cdn.bcm.edu/sites/default/files/2024-11/bcm-ventures-annual-report-2024.pdf">evidence source</a></li></ul>
+</section>
+<footer>Built for Jodi Yang, 6 Oct 2026. Version 2.0. The Waco dinner, its three guests, the chosen restaurant and the decision to hold Houston for its own trip are from Jodi's message of 14:22 on 6 October 2026. Addresses, neighbourhoods, slot lengths and intercity drive times are carried from the 23 September 2026 Texas roadshow plan v1.0; legs added here are marked as estimates. Scores and contact paths are from the scored list of 155 Texas institutions. Carmo's attendee list and venues are from the organiser's email of 6 October 2026. Houston contact addresses were sought in Red Tree's own contact files only, which hold none. Files on the hub: <b>2026.10.06 - Red Tree - Texas before Carmo v2.0.xlsx</b> and <b>2026.10.06 - Red Tree - Texas before Carmo v2.0 (master).csv</b>.</footer>
+</div></body></html>
